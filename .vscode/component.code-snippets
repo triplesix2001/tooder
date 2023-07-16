@@ -1,0 +1,10 @@
+{
+  "component": {
+    "scope": "javascript",
+    "prefix": "function component",
+    "body": [
+      "import React from 'react';\r\n\r\nfunction Task() {\r\n\r\n  const containerStyle = {\r\n    backgroundColor: 'aqua',\r\n    minHeight: 'fit-content',\r\n    width: '100vw',\r\n    color: 'white',\r\n    paddingTop: '2%',\r\n    paddingBottom: '2%',\r\n    fontSize: 'calc(10px + 5vmin)',\r\n    textAlign: 'center',\r\n  };\r\n\r\n  return (\r\n    <div style={containerStyle}>\r\n        <h3>Some text</h3>\r\n    </div>\r\n  );\r\n}\r\n\r\nexport default Task;"
+    ],
+    "description": ""
+  }
+}
